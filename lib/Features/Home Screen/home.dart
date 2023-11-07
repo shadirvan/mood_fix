@@ -92,6 +92,75 @@ class HomeScreen extends StatelessWidget {
                     )),
                   ],
                 ),
+              ),
+              const SizedBox(
+                height: 40,
+              ),
+              Text(
+                'Your Playlist',
+                style: TextStyle(
+                    fontWeight: FontWeight.bold, color: appWhite, fontSize: 26),
+              ),
+              const SizedBox(
+                height: 30,
+              ),
+              SingleChildScrollView(
+                scrollDirection: Axis.horizontal,
+                child: Row(
+                  children: [
+                    Container(
+                        child: Column(
+                      children: [
+                        Image.asset(
+                            'lib/Features/Home Screen/assets/cover1.png'),
+                        const SizedBox(
+                          height: 20,
+                        ),
+                        Text(
+                          'Monsters  Go Bump',
+                          style: TextStyle(color: appWhite, fontSize: 18),
+                        ),
+                        const SizedBox(
+                          height: 10,
+                        ),
+                        Text(
+                          'Erika Recinos'.toUpperCase(),
+                          style: TextStyle(
+                              color: appWhite,
+                              fontSize: 14,
+                              fontWeight: FontWeight.w100),
+                        ),
+                      ],
+                    )),
+                    const SizedBox(
+                      width: 30,
+                    ),
+                    Container(
+                        child: Column(
+                      children: [
+                        Image.asset(
+                            'lib/Features/Home Screen/assets/cover2.png'),
+                        const SizedBox(
+                          height: 20,
+                        ),
+                        Text(
+                          'Moment Apart',
+                          style: TextStyle(color: appWhite, fontSize: 18),
+                        ),
+                        const SizedBox(
+                          height: 10,
+                        ),
+                        Text(
+                          'Odezsa'.toUpperCase(),
+                          style: TextStyle(
+                              color: appWhite,
+                              fontSize: 14,
+                              fontWeight: FontWeight.w100),
+                        ),
+                      ],
+                    )),
+                  ],
+                ),
               )
             ],
           ),
