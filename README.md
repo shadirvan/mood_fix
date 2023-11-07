@@ -1,3 +1,3 @@
 # mood_fix
 
-A new Flutter project.
+Mood fix is a android application developed with flutter
